@@ -12,5 +12,5 @@ auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(KEY,SECRET)
 api = tweepy.API(auth)
 #Authenicaton
-api.update_status("Hello Twitter Septeber 2020 2!")
+api.update_status("Hello Twitter Septeber 2020 Test 3!")
 print("Request Submitted")
